@@ -15,16 +15,21 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Texture1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding>
-                <element signature="e#927#1108#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-746">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Texture2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -40,13 +45,25 @@
     </option>
     <option name="SCHEME" value="Project" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>s1</find>
+      <find>s2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>s2</replace>
+      <replace>s1</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/GenericBasic.java" />
         <option value="$PROJECT_DIR$/src/Texture1.java" />
+        <option value="$PROJECT_DIR$/src/Texture2.java" />
       </list>
     </option>
   </component>
@@ -57,9 +74,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="747" />
+    <option name="x" value="1675" />
+    <option name="y" value="-148" />
+    <option name="width" value="1661" />
+    <option name="height" value="1157" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,13 +105,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640599383484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641251739669" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,9 +130,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Texture2">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Texture1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Texture1" />
+      <module name="generative-textures-100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Texture2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Texture2" />
+      <module name="generative-textures-100" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,6 +173,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Texture1" />
+      <item itemvalue="Application.Texture2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Texture2" />
+        <item itemvalue="Application.Texture1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,52 +198,70 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <frame x="1675" y="-148" width="1661" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27148998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15503398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49353796" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.39444444" weight="0.34323922" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.39407042" weight="0.25118035" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46616542" weight="0.39823008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.32840723" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.60555553" side_tool="true" visible="true" weight="0.34323922" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6059296" side_tool="true" visible="true" weight="0.25118035" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4921875" weight="0.32838038" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="right" id="Ant Build" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" sideWeight="0.496063" weight="0.1648" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="HappyBrackets" order="3" sideWeight="0.496063" visible="true" weight="0.27847221" />
+      <window_info anchor="right" id="HappyBrackets" order="3" sideWeight="0.496063" visible="true" weight="0.16368128" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" x="105" y="191" width="1080" height="530" id="Documentation" order="7" type="FLOATING" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.503937" side_tool="true" weight="0.20553781" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/examples/fmsynthesis/BasicFM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="163" column="44" lean-forward="true" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Texture1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding>
-            <element signature="e#927#1108#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-746">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Texture2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -217,7 +282,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -257,6 +322,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
